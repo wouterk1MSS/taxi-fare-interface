@@ -1,7 +1,12 @@
-const algoliaPlacesApiAppId = 'PO7JPHGE37';
-const algoliaPlacesApiKey = 'f4c6defd253e8acac2cb6c2698931605';
-const mapboxApiToken = 'pk.eyJ1Ijoid3BrMDAxbXNzIiwiYSI6ImNraTQ4dWV6dzE1eHYzMG56NWhhMjMzcjUifQ.Oy9knQ4ESj52zANsTJCjwA';
-const taxiFareApiUrl = 'https://taxiappi.herokuapp.com/predict_fare';
+//const algoliaPlacesApiAppId = 'PO7JPHGE37';
+//const algoliaPlacesApiKey = 'f4c6defd253e8acac2cb6c2698931605';
+//const mapboxApiToken = 'pk.eyJ1Ijoid3BrMDAxbXNzIiwiYSI6ImNraTQ4dWV6dzE1eHYzMG56NWhhMjMzcjUifQ.Oy9knQ4ESj52zANsTJCjwA';
+//const taxiFareApiUrl = 'https://taxiappi.herokuapp.com/predict_fare';
+
+const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
+const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
+const mapboxApiToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
+const taxiFareApiUrl = 'https://wouterk1mss.github.io/taxi-fare-interface/';
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
