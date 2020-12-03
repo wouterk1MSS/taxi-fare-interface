@@ -1,5 +1,5 @@
-const algoliaPlacesApiAppId = 'PO7JPHGE37';
-const algoliaPlacesApiKey = 'f4c6defd253e8acac2cb6c2698931605';
+//const algoliaPlacesApiAppId = 'PO7JPHGE37';
+//const algoliaPlacesApiKey = 'f4c6defd253e8acac2cb6c2698931605';
 //const mapboxApiToken = 'pk.eyJ1Ijoid3BrMDAxbXNzIiwiYSI6ImNraTQ4dWV6dzE1eHYzMG56NWhhMjMzcjUifQ.Oy9knQ4ESj52zANsTJCjwA';
 //const taxiFareApiUrl = 'https://taxiappi.herokuapp.com/predict_fare';
 
@@ -9,6 +9,14 @@ const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
 const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
 const mapboxApiToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
 const taxiFareApiUrl = 'https://wouterk1mss.github.io/taxi-fare-interface/';
+
+//https://places-1.algolianet.com/1/places/query?x-algolia-agent=Algolia%20for%20JavaScript%20(3.35.1)%3B%20Browser%20(lite)%3B%20
+//Algolia%20Places%201.19.0&x-algolia-application-id=PO7JPHGE37&x-algolia-api-key=f4c6defd253e8acac2cb6c2698931605
+
+
+//Request URL: https://api.mapbox.com/fonts/v1/mapbox/DIN%20Offc%20Pro%20Regular,Arial%20Unicode%20MS%20Regular/0-255.pbf?access_token=
+//#pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ
+
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
